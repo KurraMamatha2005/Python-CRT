@@ -1,0 +1,6 @@
+
+n = int(input())
+for i in range(n,0,-1):
+ print(f"multiplication table of {i}:")
+ for j in range(10,0,-1):
+   print(f"{i}*{j}={i*j}")
